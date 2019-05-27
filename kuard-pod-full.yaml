@@ -3,11 +3,11 @@ kind: Pod
 metadata:
   name: kuard
 spec:
-  volumes:
-    - name: "kuard-data"
-      nfs:
-        server: my.nfs.server.local
-        path: "/exports"
+  #volumes:
+    #- name: "kuard-data"
+      #nfs:
+        #server: my.nfs.server.local
+        #path: "/exports"
   containers:
     - image: gcr.io/kuar-demo/kuard-amd64:1
       name: kuard
