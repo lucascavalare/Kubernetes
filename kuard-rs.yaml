@@ -7,8 +7,8 @@ spec:
   template:
     metadata:
       labels:
-        app: kuard-test
-        version: "3"
+        app: kuard
+        version: "2"
     spec:
       containers:
         - name: kuard
