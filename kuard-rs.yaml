@@ -7,7 +7,7 @@ spec:
   template:
     metadata:
       labels:
-        app: kuard
+        app: kuard-
         version: "3"
     spec:
       containers:
