@@ -12,9 +12,8 @@ spec:
     metadata:
       labels:
         app: work-queue
-        component: queue
- 
-chapter: jobs
+        component: queue 
+        chapter: jobs
     spec:
       containers:
       - name: queue
