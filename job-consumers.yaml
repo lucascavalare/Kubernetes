@@ -1,8 +1,8 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-labels:
-  app: message-queue
+  labels:
+    app: message-queue
     component: consumer
     chapter: jobs
   name: consumers
