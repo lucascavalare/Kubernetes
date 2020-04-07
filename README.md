@@ -1,4 +1,4 @@
 # Kubernetes
   
-  - Activelly reading and implementing Kubernetes Up & Running by Kelsey Hightower, Brendan Burns, and Joe Beda.
+  - Actively reading and implementing Kubernetes Up & Running by Kelsey Hightower, Brendan Burns, and Joe Beda.
 
