@@ -5,7 +5,7 @@ metadata:
     name: wordpress
   name: wordpress
 spec:
-  createExternalLoadBalancer: true
+  publicIPs: ["10.1.0.25"]
   ports:
     - port: 80
   selector:
