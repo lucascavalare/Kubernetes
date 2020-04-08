@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: mysql
+  name: wp-mysql
 spec:
   replicas: 1
   selector:
@@ -9,7 +9,7 @@ spec:
   template:
     metadata:
       labels:
-        tier: mysql
+        tier: wp-mysql
     spec:
       containers:
       - name: mysql
