@@ -1,5 +1,5 @@
 kind: Service
-apiVersion: v1
+apiVersion: v1beta2
 metadata:
   name: mysql
 spec:
